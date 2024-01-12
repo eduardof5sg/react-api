@@ -1,0 +1,15 @@
+
+.resultado img{
+    width: 20%;
+}
+
+*{
+    color: aliceblue;
+}
+
+.resultado li {
+
+    display: flex;
+    flex-direction: column-reverse;
+    
+}

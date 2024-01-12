@@ -1,0 +1,30 @@
+* {
+    background-color: rgba(4, 65, 17, 0.37);
+}
+
+.navbar {
+    margin-left: 30%;
+    width: 40%;
+  }
+
+.equipo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: aliceblue;
+}
+
+.equipo  img {
+    width: 20%; /* ajusta el tamaño de la imagen según sea necesario */
+    
+}
+
+.equipo p {
+
+    width: 20%;
+}
+
+.general h2 {
+    color: aliceblue;
+    margin-left: 42%;
+}

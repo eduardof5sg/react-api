@@ -1,0 +1,45 @@
+* {
+    background-color: rgba(4, 65, 17, 0.37);
+    
+}
+
+.equipo ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  list-style: none;
+  padding-left: 90px;
+  margin-top: 20px;
+  
+}
+
+.equipo li {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  margin: 10px;
+  text-align: center;
+  color: aliceblue;
+  padding: 20px;
+}
+
+.equipo ul li {
+  margin: 0 60px; /* Espacio horizontal entre elementos */
+}
+
+.equipo li img {
+  width: 100px; /* ajusta el tamaño de la imagen según sea necesario */
+  height: auto;
+  margin-top: 10px;
+}
+
+.busqueda{
+  margin-left: 45%;
+  margin-top: 20px;
+}
+
+.navbar {
+  margin-left: 30%;
+}
+
+
