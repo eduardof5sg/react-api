@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+=======================================
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Consumo de API con React
 
-## Available Scripts
+Este proyecto utiliza la biblioteca React para realizar consultas a la API de TheSportsDB, específicamente a la ruta search_all_teams.php con parámetros para obtener información sobre equipos de fútbol en España. La API devuelve datos como nombres de equipos y las imágenes de sus escudos. La aplicación presenta estos datos de manera paginada, mostrando tres equipos por página.
 
-In the project directory, you can run:
+![api](https://github.com/eduardof5sg/react-api/assets/149663359/cb328c67-8e14-46d0-bf7a-090c558746c2)
 
-### `npm start`
+Además, el proyecto incluye dos páginas adicionales:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Página Detallada de Equipo:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Se accede haciendo clic en la imagen del escudo de cada equipo.
+Muestra información más detallada sobre el equipo seleccionado.
 
-### `npm test`
+![detalle](https://github.com/eduardof5sg/react-api/assets/149663359/21cedce8-d810-4317-b215-e252b1e50120)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Página de Búsqueda:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+Permite a los usuarios realizar búsquedas específicas.
+Proporciona una interfaz para ingresar parámetros de búsqueda y visualizar resultados detallados.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![bus](https://github.com/eduardof5sg/react-api/assets/149663359/8ea51404-494a-4d75-9a0f-3289f8651796)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Estructura del Proyecto
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+![codi](https://github.com/eduardof5sg/react-api/assets/149663359/1718e79d-f3af-415d-b2f9-330542f579c4)
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Contribuciones
+Si teneis algo que aportar no dudeis en crear un Branch para poder
+mejorar el codigo =)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Licencia
+Este proyecto está bajo la Licencia Eduardo Silva
